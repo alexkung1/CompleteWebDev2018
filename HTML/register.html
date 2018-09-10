@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <title>Registration Page</title>
+
+    </head>
+    <body background="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+        <h1>Welcome to the registry!</h1>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <form>
+            First Name: <input type="text" name="firstname"><br>
+            Last Name: <input type="text" name="lastname"><br>
+            Email: <input type="email"  required name="email"><br>
+            Password: <input type="password" min="5" name="password"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            <!-- Radio Buttons-->
+            Gender:
+            <br> <input type="radio" name="gender" value="male">Male
+            <br> <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender"  value="other">Other<br>
+            <!-- CheckBoxes-->
+            Pets:
+            <br>
+            <input type="checkbox" name="pet">Cat<br>
+            <input type="checkbox" name="pet">Dog<br>
+            Cars: <br>
+            <!-- Dropdown Boxes-->
+            <select>
+                <option value="volvo" name="volvo">Volvo</option>
+                <option value="audi" name="audi">Audi</option>
+            </select><br>
+            <input type="submit" value="Register!">
+            <input type="reset"><br>
+            
+        </form>
+        <script src="" async defer></script>
+    </body>
+</html>
+
+<!--
+    When a form is submitted without specifying a 'method', the default
+    is 'get' (i.e.,<form method = "get">). This will simply, as it is now,
+    attach the form information to the address as a 'query string'.
+    
+    if you specify the method as 'post', it will not attach it to the url.
+    This is obviously preferrable if you use a password otherwise hte password
+    will be displayed in the url.
+
+    These are both methods of sending form information to the backend.
+
+    To note when implementing CSS into our html, we can use <div></div> for a huge
+    section of content
+
+    When we want to add styles inline we can use <span></span>
+-->
+

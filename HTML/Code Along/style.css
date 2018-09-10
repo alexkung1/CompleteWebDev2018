@@ -1,0 +1,29 @@
+/* Selector {
+
+}
+
+CSS -cascading style sheets
+
+ALWAYS TAKES THE LAST INPUT IF A GIVEN SELECTOR IS MENTIONED TWICE
+*/
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px purple;
+    border-style: dotted dashed solid double;
+    cursor: pointer;
+}
+
+p {
+    color: pink;
+}
+
+body{
+    background-image: url(https://cdn-media.rtl.fr/cache/rQwYMu3pakcZ6yEbvK84CA/880v587-0/online/image/2017/0630/7789172554_la-voie-lactee-au-dessus-de-siding-spring-en-australie.jpg);
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+}
